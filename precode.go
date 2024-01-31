@@ -119,7 +119,7 @@ func deleteTaskId(w http.ResponseWriter, r *http.Request) {
 func main() {
 	r := chi.NewRouter()
 
-	// Регистрируем обработчики
+	// Регистрируем обработчики .
 	r.Get("/tasks", getTasks)
 
 	r.Get("/tasks/{id}", getTasksId)
